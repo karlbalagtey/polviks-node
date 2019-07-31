@@ -19,8 +19,8 @@
                                     <img src="<%= product.imageUrl %>" alt="<%= product.title %>">
                                 </div>
                                 <div class="card__content">
-                                    <h2 class="product__price">
-                                        $<%= product.price %>
+                                    <h2 class="product__price">$
+                                        <%= product.price %>
                                     </h2>
                                     <p class="product__description">
                                         <%= product.description %>
@@ -35,8 +35,8 @@
                             </article>
                             <% } %>
                     </div>
-                <% } else { %>
-                    <h1>No Products Found!</h1>
-                <% } %>
+                    <% } else { %>
+                        <h1>No Products Found!</h1>
+                        <% } %>
             </main>
             <%- include('../includes/end.ejs') %>
