@@ -5,5 +5,5 @@ yarn-error.log*
 node_modules
 .vscode
 .env
-/images
-/data
+images
+data
